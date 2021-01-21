@@ -16,10 +16,45 @@ body {
 }
 /* navigazione */
 .center {
+  width: 80%;
   margin: auto;
 }
 
+.inliner {
+  display: inline-block;
+}
+/* .column {
+  float: left;
+} */
+
 .top-section {
-  width: 80%;
   height: 500px;
+  background-color: #0C325A;
+  color: white;
+}
+
+.navmenu {
+  width: 70%;
+  vertical-align: middle;
+  padding-top: 30px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+
+.logo img {
+  display: block;
+}
+
+.logo{
+  vertical-align: middle;
+  padding: 20px 50px 0 0;
+}
+
+.login {
+  width: 30%;
 }
