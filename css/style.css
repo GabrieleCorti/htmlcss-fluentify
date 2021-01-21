@@ -1,9 +1,25 @@
+/* utility */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 body {
-  background-color: green;
+  font-family: 'Roboto', sans-serif;
+}
+/* navigazione */
+.center {
+  margin: auto;
+}
+
+.top-section {
+  width: 80%;
+  height: 500px;
 }
