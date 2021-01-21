@@ -23,12 +23,13 @@ body {
 .inliner {
   display: inline-block;
 }
+
 .column {
   float: left;
 }
 
 .top-section {
-  height: 500px;
+  height: 550px;
   background-color: #0C325A;
   color: white;
 }
@@ -86,4 +87,22 @@ a {
 .pieno {
   border: none;
   background-color: #a6e83c;
+}
+/* clame e immagine */
+.wrapper {
+  height: 100%;
+  position: relative;
+}
+
+.clame {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 27px;
+}
+
+.big {
+  margin-top: 35px;
+  padding: 25px 65px;
 }
