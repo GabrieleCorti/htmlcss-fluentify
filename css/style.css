@@ -34,8 +34,12 @@ body {
 }
 /* nav */
 .navmenu {
-  width: 70%;
-  padding-top: 20px;
+  width: 50%;
+  padding-top: 18px;
+}
+
+.img-logo {
+  width: 140px;
 }
 
 nav ul {
@@ -43,7 +47,7 @@ nav ul {
 }
 
 nav li {
-  padding: 8px 20px 0 0;
+  padding: 13px 20px 0 0;
 }
 
 a {
@@ -62,6 +66,24 @@ a {
 }
 
 .login {
-  width: 30%;
-  padding-top: 34px;
+  width: 50%;
+  padding-top: 33px;
+}
+
+.login li {
+  padding-right: 20px;
+}
+
+.bottone{
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px 30px;
+}
+
+.pieno {
+  border: none;
+  background-color: #a6e83c;
 }
