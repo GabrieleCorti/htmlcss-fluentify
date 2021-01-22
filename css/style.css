@@ -15,6 +15,13 @@ body {
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
 }
+
+.help {
+  text-transform: capitalize;
+  position: fixed;
+  bottom: 0;
+  right: 170px;
+}
 /* navigazione */
 .center {
   width: 90%;
@@ -186,7 +193,7 @@ hr, .part p, .offer p, select, span {
 }
 /* immagine e offerta */
 .section-3 {
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 .img-container, .offer {
