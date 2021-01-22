@@ -134,19 +134,43 @@ a {
   background-color: #D3D3D3;
   text-align: center;
   font-weight: normal;
+  font-size: 20px;
   padding: 50px 0;
 }
 
-.section-1 h3 {
+.section-1 h4 {
   color: #7D7D7D;
   padding-top: 5px;
+  font-size: 18px;
 }
 
 .part {
   width: calc(100%/3);
   text-align: center;
 }
+/* box con immagini */
+.part h3 {
+  font-size: 20px;
+  color: #a6e83c;
+}
 
 .photo {
-  width: 40%;
+  width: 30%;
+}
+
+.cut {
+  width: 10%;
+}
+
+hr, .part p {
+  color: #7D7D7D;
+  font-size: 18px;
+}
+
+.two .photo {
+  width: 51%;
+}
+
+.three .photo {
+  width: 36%;
 }
