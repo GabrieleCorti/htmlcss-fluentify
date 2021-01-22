@@ -168,11 +168,11 @@ a {
   width: 10%;
 }
 
-.part p{
+.part p {
   padding-top: 8px;
 }
 
-hr, .part p {
+hr, .part p, .offer p {
   color: #7D7D7D;
   font-size: 18px;
 }
@@ -183,4 +183,39 @@ hr, .part p {
 
 .three .photo {
   width: 36%;
+}
+/* immagine e offerta */
+.section-3 {
+  margin: 20px 0;
+}
+
+.img-container, .offer {
+  width: 50%;
+}
+
+.img-container {
+  text-align: right;
+}
+
+.img-mountain {
+  width: 80%;
+}
+
+.offer {
+  padding-left: 100px;
+}
+
+.offer h3 {
+  font-size: 30px;
+}
+
+.offer p {
+  padding: 20px 0 25px 0;
+}
+
+.offer a {
+  display: block;
+  color: lightblue;
+  text-transform: lowercase;
+  text-decoration: underline;
 }
