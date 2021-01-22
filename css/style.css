@@ -21,6 +21,7 @@ body {
   position: fixed;
   bottom: 0;
   right: 170px;
+  z-index: 10;
 }
 /* navigazione */
 .center {
@@ -132,10 +133,11 @@ a {
   right: -4%;
 }
 
-.img-fit {
+.img-man {
   width: 100%;
   display: block;
 }
+
 /* clame 2 */
 .section-1 {
   background-color: #D3D3D3;
@@ -169,6 +171,11 @@ a {
 
 .photo {
   width: 30%;
+}
+
+.img-fit {
+  height: 200px;
+  display: block;
 }
 
 .cut {
