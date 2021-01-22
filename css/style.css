@@ -82,7 +82,7 @@ a {
  padding-right: 20px;
 }
 
-.bottone{
+.bottone {
   background-color: transparent;
   color: white;
   text-transform: uppercase;
@@ -172,7 +172,7 @@ a {
   padding-top: 8px;
 }
 
-hr, .part p, .offer p {
+hr, .part p, .offer p, select, span {
   color: #7D7D7D;
   font-size: 18px;
 }
@@ -218,4 +218,43 @@ hr, .part p, .offer p {
   color: lightblue;
   text-transform: lowercase;
   text-decoration: underline;
+}
+/* configurazione piano */
+.section-4, select {
+  background-color: #D3D3D3;
+}
+
+.section-4 div {
+  padding: 45px 0;
+}
+
+.section-4 h3 {
+  font-size: 25px;
+}
+
+.plan, .section-4 h3 {
+  width: 48%;
+}
+
+.plan {
+  text-align: right;
+}
+
+span, select {
+  font-size: 16px;
+}
+
+h3, form {
+ vertical-align: middle;
+}
+
+select {
+  width: 25%;
+  border: none;
+  border-bottom: 1px solid #7D7D7D;
+  margin: 0 20px;
+}
+
+.section-4 .bottone {
+  padding: 25px 8px;
 }
