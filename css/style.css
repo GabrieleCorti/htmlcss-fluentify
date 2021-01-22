@@ -75,14 +75,11 @@ a {
 .login {
   width: 50%;
   padding-top: 33px;
+  text-align: right;
 }
 
-.login ul {
-  padding-left: 60px;
-}
-
-.login li {
-  padding-right: 20px;
+.login li:not(last-child) {
+ padding-right: 20px;
 }
 
 .bottone{
@@ -97,6 +94,7 @@ a {
 .pieno {
   border: none;
   background-color: #a6e83c;
+  padding: 8px;
 }
 /* clame e immagine */
 .wrapper {
@@ -112,8 +110,11 @@ a {
   font-size: 27px;
 }
 
+.clame h1 {
+  margin-bottom: 35px;
+}
+
 .big {
-  margin-top: 35px;
   padding: 25px 65px;
 }
 
@@ -124,19 +125,28 @@ a {
   right: -4%;
 }
 
-.img-banner img {
+.img-fit {
   width: 100%;
   display: block;
 }
-
-section {
+/* clame 2 */
+.section-1 {
   background-color: #D3D3D3;
   text-align: center;
   font-weight: normal;
   padding: 50px 0;
 }
 
-section h3 {
+.section-1 h3 {
   color: #7D7D7D;
   padding-top: 5px;
+}
+
+.part {
+  width: calc(100%/3);
+  text-align: center;
+}
+
+.photo {
+  width: 40%;
 }
