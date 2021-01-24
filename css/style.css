@@ -54,20 +54,18 @@ body {
 .img-logo {
   width: 140px;
   margin-top: 11px;
-}
-
-.logo img {
   display: block;
 }
 
 .logo {
-  padding-right: 50px;
   vertical-align: middle;
   margin-bottom: 29px;
+  padding-right: 50px;
+  width: 15%
 }
 
 .navmenu, .login {
-  width: 40%;
+  width: 42%;
   padding-top: 30px;
 }
 
