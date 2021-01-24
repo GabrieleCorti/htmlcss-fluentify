@@ -62,12 +62,13 @@ body {
 
 .logo {
   padding-right: 50px;
+  vertical-align: middle;
+  margin-bottom: 29px;
 }
 
 .navmenu, .login {
   width: 40%;
   padding-top: 30px;
-  vertical-align: top;
 }
 
 li:not(.last) {
