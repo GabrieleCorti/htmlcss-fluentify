@@ -238,12 +238,16 @@ h3, form {
 }
 
 select {
-  width: 25%;
+  width: 40%;
   border: none;
   border-bottom: 1px solid #7D7D7D;
-  margin: 0 20px;
 }
 
 .section-4 .bottone {
   padding: 25px 8px;
+  margin-left: 11px;
+}
+
+form {
+  width: 100%
 }
