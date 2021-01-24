@@ -86,7 +86,7 @@ a {
   text-align: right;
 }
 
-.login li:not(last-child) {
+.login li {
  padding-right: 20px;
 }
 
@@ -170,12 +170,11 @@ a {
 }
 
 .photo {
-  width: 30%;
+  margin: auto;
 }
 
 .img-fit {
   height: 200px;
-  display: block;
 }
 
 .cut {
@@ -192,11 +191,11 @@ hr, .part p, .offer p, select, span {
 }
 
 .two .photo {
-  width: 51%;
+  /* width: 51%; */
 }
 
 .three .photo {
-  width: 36%;
+  /* width: 36%; */
 }
 /* immagine e offerta */
 .section-3 {
@@ -238,7 +237,7 @@ hr, .part p, .offer p, select, span {
   background-color: #D3D3D3;
 }
 
-.section-4 div {
+.section-4 .service {
   padding: 45px 0;
 }
 
