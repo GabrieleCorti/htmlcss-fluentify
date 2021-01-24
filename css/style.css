@@ -45,14 +45,12 @@ body {
   height: 100vh;
   background-color: #0C325A;
   color: white;
+  background-image: url(../img/background-header.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 114% 100%;
 }
 /* nav */
-.navmenu, .login {
-  width: 40%;
-  padding-top: 30px;
-  vertical-align: top;
-}
-
 .img-logo {
   width: 140px;
   margin-top: 11px;
@@ -64,6 +62,12 @@ body {
 
 .logo {
   padding-right: 50px;
+}
+
+.navmenu, .login {
+  width: 40%;
+  padding-top: 30px;
+  vertical-align: top;
 }
 
 li:not(.last) {
@@ -115,18 +119,6 @@ a {
 
 .big {
   padding: 25px 65px;
-}
-
-.img-banner {
-  width: 70%;
-  position: absolute;
-  bottom: 0;
-  right: -4%;
-}
-
-.img-man {
-  width: 100%;
-  display: block;
 }
 
 /* clame 2 */
