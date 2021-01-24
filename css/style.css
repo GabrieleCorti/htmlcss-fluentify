@@ -40,19 +40,22 @@ body {
 .column {
   float: left;
 }
-
+/* top-section */
 .top-section {
   height: 100vh;
   background-color: #0C325A;
   color: white;
 }
 /* nav */
-.navmenu {
-   width: 50%;
+.navmenu, .login {
+  width: 40%;
+  padding-top: 30px;
+  vertical-align: top;
 }
 
 .img-logo {
   width: 140px;
+  margin-top: 11px;
 }
 
 .logo img {
@@ -60,12 +63,11 @@ body {
 }
 
 .logo {
-  vertical-align: middle;
   padding-right: 50px;
 }
 
 li:not(.last) {
-  padding: 0 20px 0 0;
+  padding: 0 30px 0 0;
 }
 
 a {
