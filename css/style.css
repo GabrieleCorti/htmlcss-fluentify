@@ -156,7 +156,7 @@ a {
 }
 
 .img-fit {
-  height: 200px;
+  height: 150px;
 }
 
 .cut {
@@ -172,10 +172,10 @@ hr, .part p, .offer p, select, span {
   font-size: 18px;
 }
 
-}
+
 /* immagine e offerta */
 .section-3 {
-  margin: 40px 0;
+  margin: 40px auto;
 }
 
 .img-container, .offer {
